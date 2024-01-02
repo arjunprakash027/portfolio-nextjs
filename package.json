@@ -7,11 +7,15 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
     "autoprefixer": "^10.4.16",
-    "next": "latest",
+    "next": "^14.0.4",
     "postcss": "^8.4.32",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-normalize": "^10.0.1",
+    "postcss-preset-env": "^9.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "engines": {
     "node": ">=18"
