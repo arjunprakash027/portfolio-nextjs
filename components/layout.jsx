@@ -19,10 +19,15 @@ const Layout = ({ children }) => {
 
             <Link href="/projects">
               <span className="link" title="Projects">
-                projects
+                Projects
               </span>
             </Link>
 
+            <Link href="/blogs">
+              <span className="link" title="Blogs">
+                Blogs
+              </span>
+            </Link>
           </nav>
         </div>
         {children}
