@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Layout = ({ children }) => {
   return (
     <div className="min-h-screen flex flex-col items-center bg-gray-100">
-      <main className="w-full md:w-1/2 p-4 md:p-8 flex flex-col flex-1 bg-white">
+      <main className="w-full md:w-2/3 p-4 md:p-8 flex flex-col flex-1 bg-white">
         <div className="navbar flex flex-col md:flex-row justify-between items-center bg-white p-4 mb-12">
           <div className="logo mb-4 md:mb-0">
             <img alt="Arjun homepage" src="./logo.png" className="h-12 md:h-auto" />

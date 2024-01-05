@@ -5,30 +5,27 @@ const Home = () => {
       <div className="text-center md:text-left md:mr-auto w-full md:w-3/5 mb-4 md:mb-0 order-2 md:order-1">
         <h2 className="text-gray-600 italic text-2xl mb-2 px-0 py-12">Elysian Voyager / Developer</h2>
         <p className="text-black-500 text-2xl">
-          Tailwind CSS is a popular utility-first CSS framework that offers a unique approach to building modern and responsive user interfaces.
+          Hola! I am Arjun, I would like to call myself an artist who's canvas is 0's and 1's. Building stuff is my hobbie and code is just a means to an end. <br></br>
+          My thirst to build started when I first got my first hot wheels race track and cars as a gift. I used to permute and combine various tracks and let my car ride free, that passion of building things continued 
+          till this age, where programming language are my race tracks. <br></br>
+          As I said coding is just a means to an end, my major interest lies in building products people love, creating services people need and solving every problem I come across.
+          <br></br> <br></br>
+          I am pursuing degree in Artificial Intelligence and Data Science from SRM Easwari Eng. Collage in Chennai. I love Data and I love math, a combination made in heaven. I love how just playing around with imaginary things called as numbers can help us develop Intelligence similar to us given enough amount of digital representation of real world events (also called data)
+          <br></br> <br></br>
+          I tinker around and work on lot of stuff, I post most of it on my <a className="text-red-500" href="https://github.com/arjunprakash027">github</a>.
+          I interned for a brief period at a company called <a className="text-red-500" href="https://imaginorlabs.com/">Imaginorlabs</a>. It is there I learnt how to put my python skills into real world application.
+          Now I freelance and just tinker around with softwares and codes and learn about how tech startups works.
+          <br></br> <br></br>
+          I read a lot of books about philosophy and life and that drives the views I have on world and future. I belive what we think we become. You will always be an victim if you are victim in your mind, change your view change everything.
+          <br></br> <br></br>
+          I am a huge open source enthusiast and I love contributing to open source projects. I love to read open source codebases and understand how things work.
+          <br></br> <br></br>
+          Having said everything, I am greatful for the position I am in, having the oppurtunity to do things I love, everyday.
+          <br></br> <br></br>
+          Drop into my inbox? <a href="mailto:arjunprakash027@gmail.com" className="text-red-500">arjunprakash027@gmail.com</a>
+          <br></br> <br></br>
+          <p className="text-gray-400 text-xl font-style: italic">I took a huge inspiration for this website from <a href="https://nadh.in/">Kailash's Website</a>, but i built it from scratch using nextjs and tailwind</p> 
 
-          Unlike traditional CSS frameworks that provide pre-designed components, Tailwind CSS focuses on providing a comprehensive set of utility classes that you can directly apply to your HTML elements.
-
-          When combined with Next.js, a powerful React framework for building server-side rendered applications, you can unlock a seamless development experience and create performant, scalable web applications.
-
-          In this tutorial, I'll will walk you through the process of setting up Tailwind CSS with Next.js, so you can harness the power of Tailwind's utility classes in your Next.js projects.
-
-          Prerequisites
-          Before getting started, make sure you have the following prerequisites:
-
-          Node.js installed on your machine
-          Basic knowledge of JavaScript and React
-          Familiarity with Next.js
-          How Tailwind CSS and Utility Classes Work
-          Tailwind CSS follows a utility-first approach to styling. It provides a vast collection of small, single-purpose utility classes that you can apply directly to your HTML elements.
-
-          Each utility class represents a specific CSS property or combination of properties, making it easy to build complex UI components by composing these classes together.
-
-          For example, instead of defining a custom CSS class for setting the color of a button, you can simply apply the "text-blue-500" utility class to achieve the desired effect.
-
-          The utility classes in Tailwind CSS are designed to be highly flexible and customizable. You can easily adjust properties such as margin, padding, font size, colors, and more by leveraging the intuitive naming conventions provided by Tailwind.
-
-          This approach offers a fine-grained level of control over your styles, eliminating the need to write custom CSS for most common styling scenarios.
         </p>
       </div>
       <div className="text-center md:text-right md:flex md:justify-end w-full md:w-2/5 self-start order-1 md:order-2">
