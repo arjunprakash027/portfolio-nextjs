@@ -24,16 +24,15 @@ const Home = () => {
           <br></br> <br></br>
           Drop into my inbox? <a href="mailto:arjunprakash027@gmail.com" className="text-red-500">arjunprakash027@gmail.com</a>
           <br></br> <br></br>
-          <p className="text-gray-400 text-xl font-style: italic">I took a huge inspiration for this website from <a href="https://nadh.in/">Kailash's Website</a>, but i built it from scratch using nextjs and tailwind</p> 
-
         </p>
+        <p className="text-gray-400 text-xl font-style: italic">I took a huge inspiration for this website from <a href="https://nadh.in/">Kailash's Website</a>, but i built it from scratch using nextjs and tailwind</p>
       </div>
       <div className="text-center md:text-right md:flex md:justify-end w-full md:w-2/5 self-start order-1 md:order-2">
         {/* Your single image goes here */}
         <img
-          src="/profile.png"
+          src="/profile2.png"
           alt="Your Alt Text"
-          className="h-32 w-32 md:h-auto md:w-auto min-w-[100px] transition-all duration-300 rounded-full cursor-pointer filter grayscale hover:grayscale-0 max-w-[200px] md:max-w-full mx-auto"
+          className="h-30 w-30 md:h-auto md:w-auto min-w-[100px] transition-all duration-300 rounded-full cursor-pointer filter grayscale hover:grayscale-0 max-w-[100px] md:max-w-[100px] mx-auto"
         />
       </div>
     </div>
