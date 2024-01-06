@@ -32,17 +32,17 @@ const Layout = ({ children }) => {
           </nav>
         </div>
         {children}
-        <footer className="w-full h-10 border-t border-gray-300 flex justify-center items-center">
+      </main>
+      <footer className="w-full bg-gray-100 h-10 flex justify-center items-center">
           <a
             className="no-underline text-current"
             href="https://github.com/arjunprakash027"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <p>Arjun Prakash &copy; 2020 - 2024</p>
+            <p>Arjun Prakash &copy; 2023 - 2024</p>
           </a>
         </footer>
-      </main>
       <Head>
         <title>Arjun's Portfolio</title>
         <link rel="icon" href="https://icons8.com/icon/15097/a" />
