@@ -5,26 +5,23 @@ const Home = () => {
       <div className="text-center md:text-left md:mr-auto w-full md:w-3/5 mb-4 md:mb-0 order-2 md:order-1">
         <h2 className="text-gray-600 italic text-2xl mb-2 px-0 py-12">Elysian Voyager / Developer</h2>
         <p className="text-black-500 text-2xl">
-          Hola! I am Arjun, I would like to call myself an artist who's canvas is 0's and 1's. Building stuff is my hobbie and code is just a means to an end. <br></br>
-          My thirst to build started when I first got my first hot wheels race track and cars as a gift. I used to permute and combine various tracks and let my car ride free, that passion of building things continued 
-          till this age, where programming language are my race tracks. <br></br>
-          As I said coding is just a means to an end, my major interest lies in building products people love, creating services people need and solving every problem I come across.
-          <br></br> <br></br>
-          I am pursuing degree in Artificial Intelligence and Data Science from SRM Easwari Eng. Collage in Chennai. I love Data and I love math, a combination made in heaven. I love how just playing around with imaginary things called as numbers can help us develop Intelligence similar to us given enough amount of digital representation of real world events (also called data)
-          <br></br> <br></br>
-          I tinker around and work on lot of stuff, I post most of it on my <a className="text-red-500" href="https://github.com/arjunprakash027">github</a>.
-          I interned for a brief period at a company called <a className="text-red-500" href="https://imaginorlabs.com/">Imaginorlabs</a>. It is there I learnt how to put my python skills into real world application.
-          Now I freelance and just tinker around with softwares and codes and learn about how tech startups works.
-          <br></br> <br></br>
-          I read a lot of books about philosophy and life and that drives the views I have on world and future. I belive what we think we become. You will always be an victim if you are victim in your mind, change your view change everything.
-          <br></br> <br></br>
-          I am a huge open source enthusiast and I love contributing to open source projects. I love to read open source codebases and understand how things work.
-          <br></br> <br></br>
-          Having said everything, I am greatful for the position I am in, having the oppurtunity to do things I love, everyday.
-          <br></br> <br></br>
-          Drop into my inbox? <a href="mailto:arjunprakash027@gmail.com" className="text-red-500">arjunprakash027@gmail.com</a>
-          <br></br> <br></br>
-        </p>
+  Hey there, I'm Arjun – an artist with a canvas full of 0's and 1's! Imagine coding as my playground, where I build digital wonders for fun. <br /><br />
+  
+  My journey began with a hot wheels race track gift, sparking my passion for creating. From toy cars to programming languages, I've upgraded my race tracks! <br /><br />
+  
+  Coding, for me, is more than just syntax; it's a tool to craft products people love, services people need, and solutions for every challenge. <br /><br />
+  
+  Currently pursuing a degree in Artificial Intelligence and Data Science at SRM Easwari Eng. College, Chennai. I'm madly in love with data and the elegant dance of numbers – a match made in nerd heaven! <br /><br />
+  
+  You'll find my coding adventures on <a className="text-red-500" href="https://github.com/arjunprakash027">GitHub</a>. I had a stint at <a className="text-red-500" href="https://imaginorlabs.com/">Imaginorlabs</a>, where I turned Python skills into real-world magic. Now, I'm freelancing, tinkering, and decoding the secrets of tech startups. <br /><br />
+  
+  Devouring books on philosophy and life shapes my worldview. Remember, what we think, we become! Change your perspective, and the world transforms. <br /><br />
+  
+  I'm a loud cheerleader for open source – contributing, reading codebases, and deciphering the magic.<br /><br />
+  
+  Grateful for the daily opportunity to do what I love. Wanna chat? Drop a line in my inbox at <a href="mailto:arjunprakash027@gmail.com" className="text-red-500">arjunprakash027@gmail.com</a>.<br /><br />
+</p>
+
         <p className="text-gray-400 text-xl font-style: italic">I took a huge inspiration for this website from <a href="https://nadh.in/">Kailash's Website</a>, but i built it from scratch using nextjs and tailwind</p>
       </div>
       <div className="text-center md:text-right md:flex md:justify-end w-full md:w-2/5 self-start order-1 md:order-2">

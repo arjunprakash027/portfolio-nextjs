@@ -1,6 +1,7 @@
 // components/layout.js
 import React from 'react';
 import Link from 'next/link';
+import Head from 'next/head';
 
 const Layout = ({ children }) => {
   return (
@@ -42,6 +43,15 @@ const Layout = ({ children }) => {
           </a>
         </footer>
       </main>
+      <Head>
+        <title>Arjun's Portfolio</title>
+        <link rel="icon" href="https://icons8.com/icon/15097/a" />
+        <meta property="og:title" content="Arjun's Portfolio" />
+        <meta property="og:description" content="A minimalist portfolio containing my works" />
+        <meta property="og:image" content="https://icons8.com/icon/15097/a" />
+        <meta property="og:url" content="URL of the page" />
+        <meta property="og:type" content="website" />
+      </Head>
     </div>
   );
 };
