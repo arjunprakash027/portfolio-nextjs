@@ -13,7 +13,7 @@ const Home = () => {
   
   Currently pursuing a degree in Artificial Intelligence and Data Science at SRM Easwari Eng. College, Chennai. I'm madly in love with data and the elegant dance of numbers – a match made in nerd heaven! <br /><br />
   
-  You'll find my coding adventures on <a className="text-red-500" href="https://github.com/arjunprakash027">GitHub</a>. I had a stint at <a className="text-red-500" href="https://imaginorlabs.com/">Imaginorlabs</a>, where I turned Python skills into real-world magic. Now, I'm freelancing, tinkering, and decoding the secrets of tech startups. <br /><br />
+  You'll find my coding adventures on <a className="text-red-500" href="https://github.com/arjunprakash027">GitHub</a>. I had a stint at <a className="text-red-500" href="https://imaginorlabs.com/">Imaginorlabs</a>, where I turned Python skills into real-world magic. Now, I work as Intern at an Organization called <a className="text-purple-500" href="https://jmangroup.com/">JMAN GROUP</a> where I work mostly with Data . <br /><br />
   
   Devouring books on philosophy and life shapes my worldview. Remember, what we think, we become! Change your perspective, and the world transforms. <br /><br />
   

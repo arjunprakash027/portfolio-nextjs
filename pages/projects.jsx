@@ -15,6 +15,18 @@ const projectData = [
     description: 'Airlift is also my freelance and open-source project that enables local csv/json data to be uploaded to Airtable. Official airtable client has some limitations like no feature to upload images to airtable, airlift aims to solve those limitations'
   },
   {
+    date:'Feb 2024',
+    name:'POAKMM',
+    link:'https://github.com/orgs/mini-project-jman/repositories',
+    description:'POAKMM is an sports seat booking website (mockup) that is built using express and react.'
+  },
+  {
+    date:'Apr 2024',
+    name:"Timely",
+    link:"https://github.com/major-Proj",
+    description:"Timely is an timesheet where employees can fill their work hours based on their projects and provide feedbacks. It also includes data pipeline that connects to snowflake as warehouse and DBT as ELT tool to gain analysis"
+  },
+  {
     date: 'Aug 2023',
     name: 'SkillPulse',
     link: 'https://github.com/arjunprakash027/SkillPulse-Backend',
@@ -25,6 +37,12 @@ const projectData = [
     name: "Shakes AI",
     link: "https://github.com/arjunprakash027/shakes_ai",
     description: "Shakes AI is a small language model developed by me, trained on around 1 million lines of text data containing Shakespearean literature. This model has the capability to generate Shakespearean sonnets, that match the rhyme and meter patterns of the original works, while also providing a unique and creative touch to the generated poems",
+  },
+  {
+    date:'Feb 2024',
+    name:"online shopping DBT",
+    link:"https://github.com/JMAN-CODES/onlineShopping-dbt",
+    description:"It is an data engineering project that uses DBT to extract, load and transform the data using SSMS as database"
   },
   {
     date: 'Nov 2023',

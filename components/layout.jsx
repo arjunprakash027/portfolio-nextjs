@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
       <footer className="w-full bg-gray-100 h-10 flex justify-center items-center">
           <a
             className="no-underline text-current"
-            href="https://github.com/arjunprakash027"
+            href="/links"
             target="_blank"
             rel="noopener noreferrer"
           >
