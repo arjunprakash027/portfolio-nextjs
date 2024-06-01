@@ -11,9 +11,9 @@ const Home = () => {
   
   Coding, for me, is more than just syntax; it's a tool to craft products people love, services people need, and solutions for every challenge. <br /><br />
   
-  Currently pursuing a degree in Artificial Intelligence and Data Science at SRM Easwari Eng. College, Chennai. I'm madly in love with data and the elegant dance of numbers – a match made in nerd heaven! <br /><br />
+  I hold a degree in Artificial Intelligence and Data Science from SRM Easwari Engineering College<br /><br />
   
-  You'll find my coding adventures on <a className="text-red-500" href="https://github.com/arjunprakash027">GitHub</a>. I had a stint at <a className="text-red-500" href="https://imaginorlabs.com/">Imaginorlabs</a>, where I turned Python skills into real-world magic. Now, I work as Intern at an Organization called <a className="text-purple-500" href="https://jmangroup.com/">JMAN GROUP</a> where I work mostly with Data . <br /><br />
+  You'll find my coding adventures on <a className="text-red-500" href="https://github.com/arjunprakash027">GitHub</a>. I had a stint at <a className="text-red-500" href="https://imaginorlabs.com/">Imaginorlabs</a>, where I turned Python skills into real-world magic. I worked as Intern at an Organization called <a className="text-purple-500" href="https://jmangroup.com/">JMAN GROUP</a> where I work mostly with Data and Backend (web dev) . Now, I am a software engineer at <a className="text-purple-500" href="https://jmangroup.com/">JMAN GROUP</a><br /><br />
   
   Devouring books on philosophy and life shapes my worldview. Remember, what we think, we become! Change your perspective, and the world transforms. <br /><br />
   
@@ -24,10 +24,9 @@ const Home = () => {
 
         <p className="text-gray-400 text-xl font-style: italic">I took a huge inspiration for this website from <a href="https://nadh.in/">Kailash's Website</a>, but i built it from scratch using nextjs and tailwind</p>
       </div>
-      <div className="text-center md:text-right md:flex md:justify-end w-full md:w-2/5 self-start order-1 md:order-2">
-        {/* Your single image goes here */}
+      <div className="text-center md:text-right md:flex md:justify-end w-full md:w-2/6 self-start order-1 md:order-2">
         <img
-          src="/profile2.png"
+          src="/profile.jpg"
           alt="Your Alt Text"
           className="h-30 w-30 md:h-auto md:w-auto min-w-[100px] transition-all duration-300 rounded-full cursor-pointer filter grayscale hover:grayscale-0 max-w-[100px] md:max-w-[100px] mx-auto"
         />
