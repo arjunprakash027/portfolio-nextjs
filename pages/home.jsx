@@ -13,7 +13,7 @@ const Home = () => {
   
   I hold a degree in Artificial Intelligence and Data Science from SRM Easwari Engineering College<br /><br />
   
-  You'll find my coding adventures on <a className="text-red-500" href="https://github.com/arjunprakash027">GitHub</a>. I had a stint at <a className="text-red-500" href="https://imaginorlabs.com/">Imaginorlabs</a>, where I turned Python skills into real-world magic. I worked as Intern at an Organization called <a className="text-purple-500" href="https://jmangroup.com/">JMAN GROUP</a> where I work mostly with Data and Backend (web dev) . Now, I am a software engineer at <a className="text-purple-500" href="https://jmangroup.com/">JMAN GROUP</a><br /><br />
+  You'll find my coding adventures on <a className="text-red-500" href="https://github.com/arjunprakash027">GitHub</a>. View my professional career <a className="text-blue-500" href="/career">here</a><br /><br />
   
   Devouring books on philosophy and life shapes my worldview. Remember, what we think, we become! Change your perspective, and the world transforms. <br /><br />
   
