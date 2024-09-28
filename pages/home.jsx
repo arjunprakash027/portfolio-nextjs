@@ -9,7 +9,7 @@ const Home = () => {
 
 Math has fascinated me from the very beginning of my understanding of the world—how complex relationships can be expressed in formulas, both linear and polynomial. It’s deeply intriguing to me.<br></br><br></br>
 
-Speaking of math, I believe everything stems from it, and its foremost offspring is physics. From physics comes electronics, and from electronics, computers. I love computers and how they function. It's amazing to think that the entirety of known existence—our universe and beyond—can be represented by just 0 and 1. With simple n^2 logic, we’ve achieved so much.<br></br><br></br>
+Speaking of math, I believe everything stems from it, and its foremost offspring is physics. From physics comes electronics, and from electronics, computers. I love computers and how they function. It's amazing to think that the entirety of known existence—our universe and beyond—can be represented by just 0 and 1. With simple 2^n logic, we’ve achieved so much.<br></br><br></br>
 
 Another field born from math, statistics, is equally important to me. I see statistics as the study of relationships, expressed mathematically. We start from something as simple as the mean of a set of numbers, move to the harmonic mean, variance, and covariance between groups of numbers, then to regression and now to AI chatbots. These marvels, which helped me correct the grammar here, are built on probability and comparisons between data sets.<br></br><br></br>
 
