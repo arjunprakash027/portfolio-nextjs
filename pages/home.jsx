@@ -3,7 +3,6 @@ const Home = () => {
     <div className="flex flex-col md:flex-row items-center p-5 md:justify-between">
       
       <div className="text-center md:text-left md:mr-auto w-full md:w-3/5 mb-4 md:mb-0 order-2 md:order-1">
-        <h2 className="text-gray-600 italic text-2xl mb-2 px-0 py-12">Seeking Truth</h2>
         <p className="text-black-500 text-2xl">
         I love science and math; to me, they model the truth of the universe. I believe the greatest purpose of a person is to seek that ultimate truth. Not the truth handed down by others, but one discovered through personal exploration. Never follow someone else's path—find your own truth. In this pursuit of the absolute truth in everything, we find joy in the passing of life.<br></br><br></br>
 

@@ -18,6 +18,12 @@ const Layout = ({ children }) => {
               </span>
             </Link>
 
+            <Link href="/nuggets">
+              <span className="link" title="Nuggets">
+                Nuggets
+              </span>
+            </Link>
+            
             <Link href="/projects">
               <span className="link" title="Projects">
                 Projects

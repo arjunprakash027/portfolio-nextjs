@@ -11,7 +11,6 @@ const Social = () => {
           <SocialLink name="LinkedIn" url="https://www.linkedin.com/in/arjunprakash027/" icon="/linkedin.svg" />
           <SocialLink name="X" url="https://twitter.com/ArjunPrakash12" icon="/x.svg"/>
           <SocialLink name="Gmail" url="mailto:arjunprakash027@gmail.com" icon="/gmail.svg"/>
-          {/* Add more social media links as needed */}
         </div>
       </div>
     </Layout>
