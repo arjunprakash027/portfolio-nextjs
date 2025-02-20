@@ -69,11 +69,11 @@ const Blogs = () => {
   return (
     <Layout>
       <div className="p-5">
-        <h2 className="text-3xl md:text-5xl text-black-500 mb-8">I write blogs on <a href='https://medium.com/@arjunprakash027' className='text-red-500'>Medium</a></h2>
+        <h2 className="text-3xl md:text-5xl text-blue-100 mb-8">I write blogs on <a href='https://medium.com/@arjunprakash027' className='text-red-500'>Medium</a></h2>
         <ul className="list-disc space-y-4 leading-5 text-base">
           {blogdata.map((blog, index) => (
             <li key={index} className="mb-6 md:mb-8 pb-6 md:pb-8 border-b border-gray-300">
-              <div className="text-gray-500 text-sm md:text-2xl mb-2">
+              <div className="text-blue-100 text-sm md:text-2xl mb-2">
                 {blog.date}
               </div>
               <div>
@@ -81,7 +81,7 @@ const Blogs = () => {
                   {blog.name}
                 </a>
               </div>
-              <div className="text-gray-700 mt-2 md:text-2xl">
+              <div className="text-blue-100 mt-2 md:text-2xl">
                 {blog.description}
               </div>
             </li>

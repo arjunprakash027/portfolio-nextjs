@@ -5,11 +5,13 @@ import Head from 'next/head';
 
 const Layout = ({ children }) => {
   return (
-    <div className="min-h-screen flex flex-col items-center bg-gray-100">
-      <main className="w-full md:w-5/6 p-4 md:p-8 flex flex-col flex-1 bg-white">
-        <div className="navbar flex flex-col md:flex-row justify-between items-center bg-white p-4 mb-12">
+    <div className="min-h-screen flex flex-col items-center bg-gray-900 text-blue-100">
+      <main className="w-full md:w-5/6 p-4 md:p-8 flex flex-col flex-1">
+          <div className="navbar flex flex-col md:flex-row justify-between items-center p-4 mb-12">
           <div className="logo mb-4 md:mb-0">
-            <img alt="Arjun homepage" src="./logo.png" className="h-12 md:h-auto" />
+              <span className="text-4xl">
+                Arjun Prakash
+              </span>
           </div>
           <nav className="nav flex gap-4 text-2xl">
             <Link href="/">
@@ -36,15 +38,15 @@ const Layout = ({ children }) => {
               </span>
             </Link>
 
-            <Link href="/career">
+            {/* <Link href="/career">
               <span className="link" title="Career">
                 Career
               </span>
-            </Link>
+            </Link> */}
           </nav>
         </div>
         {children}
-        <footer className="w-full h-2 flex justify-center items-center bg-white">
+        <footer className="w-full h-2 flex justify-center items-center">
           <a
             className="no-underline text-current"
             href="/links"

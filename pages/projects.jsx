@@ -159,12 +159,12 @@ const Projects = () => {
   return (
     <Layout>
       <div className="p-5">
-        <h2 className="text-3xl md:text-5xl text-black-500 mb-8">Projects on <a className="text-red-500" href='https://github.com/arjunprakash027'>Github</a></h2>
+        <h2 className="text-3xl md:text-5xl text-blue-100 mb-8">Projects on <a className="text-red-500" href='https://github.com/arjunprakash027'>Github</a></h2>
         <ul className="grid grid-cols-1 gap-6">
           {projectData.map((project, index) => (
             <li key={index} className="mb-6 md:mb-8 rounded-lg overflow-hidden shadow-md border border-gray-200">
               <div className="p-4">
-                <div className="text-gray-500 text-sm mb-2">
+                <div className="text-blue-100 text-sm mb-2">
                   {project.date}
                 </div>
                 <div>
@@ -172,7 +172,7 @@ const Projects = () => {
                     {project.name}
                   </a>
                 </div>
-                <div className="text-gray-700 mt-2 text-xl">
+                <div className="text-blue-100 mt-2 text-xl">
                   {project.description}
                 </div>
               </div>
