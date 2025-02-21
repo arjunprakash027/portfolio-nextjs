@@ -2,11 +2,19 @@
 import React from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
+import { useEffect } from 'react';
+
 
 const Layout = ({ children }) => {
+
+  useEffect(() => {
+    document.documentElement.style.backgroundColor = "#0A192F"; // Force full-page dark mode
+    document.body.style.backgroundColor = "#0A192F"; // Override any default styles
+  }, []);
+  
   return (
-    <div className="min-h-screen flex flex-col items-center bg-gray-900 text-blue-100">
-      <main className="w-full md:w-5/6 p-4 md:p-8 flex flex-col flex-1">
+    <div className="min-h-screen flex flex-col items-center w-full bg-gray-900 text-blue-100">
+      <main className="w-full md:w-5/6 p-4 md:p-8 bg-gray-900">
           <div className="navbar flex flex-col md:flex-row justify-between items-center p-4 mb-12">
           <div className="logo mb-4 md:mb-0">
               <span className="text-4xl">
