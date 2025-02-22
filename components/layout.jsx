@@ -8,8 +8,9 @@ import { useEffect } from 'react';
 const Layout = ({ children }) => {
 
   useEffect(() => {
-    document.documentElement.style.backgroundColor = "#0A192F"; // Force full-page dark mode
-    document.body.style.backgroundColor = "#0A192F"; // Override any default styles
+    // force the full page dark mode
+    document.documentElement.style.backgroundColor = "#0A192F";
+    document.body.style.backgroundColor = "#0A192F";
   }, []);
   
   return (
@@ -61,7 +62,7 @@ const Layout = ({ children }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <p>Arjun Prakash &copy; 2023 - 2024</p>
+            <p>Arjun Prakash &copy; 2023 - 2025</p>
           </a>
         </footer>
       </main>

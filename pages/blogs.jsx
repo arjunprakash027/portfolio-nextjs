@@ -77,7 +77,7 @@ const Blogs = () => {
                 {blog.date}
               </div>
               <div>
-                <a href={blog.link} className="text-red-500 hover:underline text-lg md:text-2xl font-bold">
+                <a href={blog.link} className="text-blue-500 hover:underline text-lg md:text-2xl font-bold">
                   {blog.name}
                 </a>
               </div>

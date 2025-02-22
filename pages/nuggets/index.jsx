@@ -37,7 +37,7 @@ const Nuggets = ({ blogs }) => {
                                 {blog.date}
                             </div>
                             <div>
-                                <a href={`/nuggets/${blog.slug}`} className="text-red-500 hover:underline text-lg md:text-2xl font-bold">
+                                <a href={`/nuggets/${blog.slug}`} className="text-blue-500 hover:underline text-lg md:text-2xl font-bold">
                                     {blog.title}
                                 </a>
                             </div>
