@@ -30,7 +30,7 @@ const Index = ({ content }) => {
         className="w-72 h-72 md:w-80 md:h-80 rounded-full object-cover transition-all duration-300 cursor-pointer filter grayscale-0 mb-8"
       />
 
-      <article className="prose lg:prose-xl mx-auto bg-gray-900 text-blue-100 p-10 rounded-md max-w-4xl my-16 text-left prose-headings:text-red-300">
+      <article className="prose lg:prose-xl mx-auto bg-gray-900 text-blue-100 p-10 rounded-md max-w-4xl my-16 text-left prose-headings:text-red-300 prose-strong:text-red-500 font-bold:text-red-300 prose-a:text-red-300">
         <ReactMarkdown remarkPlugins={[remarkGfm]}>
           {content}
         </ReactMarkdown>
