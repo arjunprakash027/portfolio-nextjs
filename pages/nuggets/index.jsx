@@ -26,6 +26,7 @@ export async function getStaticProps() {
 }
 
 const Nuggets = ({ blogs }) => {
+
     return (
         <Layout>
             <div className="p-5">

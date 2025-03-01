@@ -29,6 +29,7 @@ export async function getStaticProps({ params }) {
 
 
 const BlogPost = ({ content, metadata }) => {
+
     return (
         <Layout>
             <div className="min-h-screen bg-gray-900 flex justify-center">
