@@ -12,7 +12,7 @@ Let's keep this in mind as we explore how the **Z-test** works.
 
 The **Z-test** is used to check the probability of the **null hypothesis**—that is, whether a sample is likely drawn from the given population.
 
-There’s something called a **sampling distribution of the sample mean**, which is simply the probability distribution of means from multiple samples taken from the population. As the number of samples increases, this distribution **approaches a normal distribution** (Central Limit Theorem).
+There’s something called a **sampling distribution of the mean**, which is simply the probability distribution of means from multiple samples taken from the population. As the number of samples increases, this distribution **approaches a normal distribution** (Central Limit Theorem).
 
 Now, let's take a mean from a **specific sample** and check where it falls within this distribution. If the sample mean is **4 standard deviations away from the population mean**, can we say it's unlikely to have come from the population just by random chance? Yes. The further the sample mean is from the population mean, the lower the probability of it occurring under the null hypothesis.
 
