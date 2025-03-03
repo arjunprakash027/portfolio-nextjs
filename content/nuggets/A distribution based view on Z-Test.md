@@ -1,3 +1,5 @@
+## A distributional perspective on the Z-Test
+
 ### Understanding how to compare values in a distribution
 
 Let's imagine a normal distribution with a **mean of 100** and a **standard deviation of 10**. A large proportion of the data falls within **±2 standard deviations** from the mean, meaning that most values lie between **80 and 120**.
