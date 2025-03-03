@@ -3,13 +3,19 @@ import React from 'react';
 
 const projectData = [
   {
-    date: 'Sep 2023',
+    date: 'Mar 2025 - continous development',
+    name: "AutoFlux",
+    link: "https://github.com/arjunprakash027/AutoFlux",
+    description: "A end to end workflow to run ingestion of data to pre-processing to training to deployment of an ML model. Built on Spark, hive, mlflow and docker"
+  },
+  {
+    date: 'Sep 2023 - continous development',
     name: 'csv2notion-neo',
     link: 'https://github.com/TheAcharya/csv2notion-neo',
     description: 'csv2notion-neo is my freelance and open-source project that enables local csv/json files to be uploaded to notion using a CLI tool. Built using python,this tool has ability to also upload images to notion.'
   },
   {
-    date: 'Oct 2023',
+    date: 'Oct 2023 - continous development',
     name: 'Airlift',
     link: 'https://github.com/TheAcharya/Airlift',
     description: 'Airlift is also my freelance and open-source project that enables local csv/json data to be uploaded to Airtable. Official airtable client has some limitations like no feature to upload images to airtable, airlift aims to solve those limitations'

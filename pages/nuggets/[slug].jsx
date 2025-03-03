@@ -33,7 +33,7 @@ const BlogPost = ({ content, metadata }) => {
     return (
         <Layout>
             <div className="min-h-screen bg-gray-900 flex justify-center">
-                <article className="prose lg:prose-xl mx-auto bg-gray-900 text-blue-100 p-10 rounded-md max-w-4xl my-16 text-left prose-headings:text-red-300">
+                <article className="prose lg:prose-xl mx-auto bg-gray-900 text-blue-100 p-10 rounded-md max-w-4xl my-16 text-left prose-headings:text-red-300 prose-strong:text-red-500 font-bold:text-red-300 prose-a:text-red-300">
                     <ReactMarkdown remarkPlugins={[remarkGfm]}>
                         {content}
                     </ReactMarkdown>
