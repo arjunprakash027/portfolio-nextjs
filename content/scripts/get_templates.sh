@@ -2,20 +2,19 @@
 
 SCRIPT_NAME=$(basename "$0")
 
-# -z checks if the length of input is 0
-if [ -z "$1" ]; then
-    echo "useage : bash $SCRIPT_NAME <template>"
-    exit 1
-fi
-
-TEMPLATE_NAME="$1"
+echo "Welcome to template repository"
+echo "These are all the commands that are available : "
+echo "1) <template_name> : Enter the name of the template (eg python)
+2) help : List all the available templates"
+echo -n "What repo are you looking for? \ help :"
+read TEMPLATE_NAME
 
 GITHUB_USERNAME="arjunprakash027"
 GITHUB_TEMPLATE_REPOSITORY="Templates"
 DOWNLOAD_URL="https://github.com/$GITHUB_USERNAME/$GITHUB_TEMPLATE_REPOSITORY"
 
 # List out all the available templates
-if [ "$1" == "help" ]; then
+if [ $TEMPLATE_NAME == "help" ]; then
     curl -s "https://api.github.com/repos/$GITHUB_USERNAME/$GITHUB_TEMPLATE_REPOSITORY/git/trees/main"
     exit 1
 fi

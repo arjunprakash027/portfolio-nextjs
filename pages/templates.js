@@ -2,7 +2,7 @@ import fs from "fs";
 import path from 'path';
 
 export async function getServerSideProps({ res}) {
-    const blogDir = path.join(process.cwd(), "content");
+    const blogDir = path.join(process.cwd(), "content/scripts");
     const filename = "get_templates.sh";
     const filePath = path.join(blogDir, filename);
     const fileContent = fs.readFileSync(filePath, "utf-8"); 
