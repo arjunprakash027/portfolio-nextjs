@@ -20,7 +20,8 @@ if [ "$1" == "help" ]; then
     exit 1
 fi
 
-git clone --depth 1 "$DOWNLOAD_URL"
+# Recursive is to checkout submodules too, depth 1 is to checkout only latest commit and not the history
+git clone --recursive --depth 1 "$DOWNLOAD_URL"
 
 cp -r ./"$GITHUB_TEMPLATE_REPOSITORY"/"$TEMPLATE_NAME"/. ./
 
